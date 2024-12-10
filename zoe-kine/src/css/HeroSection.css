@@ -1,0 +1,113 @@
+/* Hero Section */
+.hero-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+  }
+  
+  /* Background Shapes Container */
+  .background-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Send to back */
+    overflow: hidden;
+  }
+  
+  /* Circular Shapes */
+  .shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+  
+  .shape.yellow {
+    background-color: #f7cc56;
+    width: 300px;
+    height: 300px;
+    top: -50px;
+    left: 50px;
+  }
+  
+  .shape.blue {
+    background-color: #b3e5fc;
+    width: 200px;
+    height: 200px;
+    bottom: 20px;
+    right: 100px;
+  }
+  
+  .shape.purple {
+    background-color: #d1c4e9;
+    width: 400px;
+    height: 400px;
+    top: 150px;
+    right: -100px;
+  }
+  
+  /* Dots Pattern */
+  .dots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(#ccc 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.2;
+  }
+  
+  /* Hero Content */
+  .intro {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .hero-section h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #f7cc56;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #e6b84e;
+  }
+  
+  /* Hero Image */
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
