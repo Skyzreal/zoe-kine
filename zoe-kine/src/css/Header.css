@@ -1,31 +1,33 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #fff;
-  }
-  
-  .header .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .header nav a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .button {
-    background-color: #f7cc56;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  z-index: 1;
+  width: 100vw;
+  box-sizing:border-box;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.button {
+  background-color: #f7cc56;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
